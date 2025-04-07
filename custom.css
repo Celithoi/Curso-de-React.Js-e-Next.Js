@@ -1,0 +1,4 @@
+/* custom.css */
+.token.jsx-tag {
+  color: #50fa7b !important; /* verde do Dracula Theme */
+}
