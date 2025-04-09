@@ -1,14 +1,29 @@
-import "./styles/theme.css";
 import "./styles/global.css";
-import { Heading } from "./components/Heading";
+import "./styles/theme.css";
 
-function App() {
+export function App() {
   return (
     <>
-      <h1>Olá mundo(do APP)</h1>
-      <Heading />
+      <div className="container">
+        <div className="content">
+          <section>LOGO</section>
+        </div>
+      </div>
+      <div className="container">
+        <div className="content">
+          <section>MENU</section>
+        </div>
+      </div>
+      <div className="container">
+        <div className="content">
+          <section>FORM</section>
+        </div>
+      </div>
+      <div className="container">
+        <div className="content">
+          <section>FOOTER</section>
+        </div>
+      </div>
     </>
   );
 }
-
-export { App };
